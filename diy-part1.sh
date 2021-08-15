@@ -18,11 +18,11 @@
 
 # sed -i '$a src-git luci https://github.com/Lienol/openwrt-luci.git;17.01' feeds.conf.default
 
- sed -i 'sa src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+# sed -i 'sa src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git diy1 https://github.com/xiaorouji/openwrt-package.git;master' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 # sed -i '$a src-git lean https://github.com/jarviswwong/Lienol-lean-lede' feeds.conf.default
-# sed -i 'sa src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+  sed -i 'sa src-git ygybjc https://github.com/ygybjc/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git https://github.com/mingxiaoyu/lede-ssr-plus' feeds.conf.default
 # sed -i '$a src-git https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 # sed -i '$a src-git https://github.com/pymumu/smartdns' feeds.conf.default
